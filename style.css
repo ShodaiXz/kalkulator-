@@ -1,0 +1,78 @@
+/* Basic styling for the calculator container */
+.calculator {
+    width: 300px; /* Adjust as needed */
+    margin: 0 auto; /* Center the calculator */
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Styling for the display input field */
+  #display {
+    width: 100%; /* Full width of the calculator */
+    height: 50px; /* Adjust as needed */
+    font-size: 24px; /* Larger font size for readability */
+    text-align: right; /* Align numbers to the right */
+    border: none; /* Remove default input border */
+    padding: 10px; /* Add some padding */
+    background-color: #fff; /* White background */
+  }
+  
+  /* Styling for the buttons container */
+  .buttons {
+    display: flex; /* Arrange buttons in a row */
+    flex-wrap: wrap; /* Wrap buttons to multiple rows if needed */
+    justify-content: space-between; /* Distribute buttons evenly */
+    padding: 10px;
+  }
+  
+  /* Styling for individual buttons */
+  .buttons button {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin: 5px; /* Add some spacing between buttons */
+    font-size: 18px;
+    cursor: pointer; /* Indicate clickable button */
+    background-color: #e0e0e0; /* Light gray background */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for buttons */
+  .buttons button:hover {
+    background-color: #d0d0d0; /* Slightly darker background on hover */
+  }
+  
+  /* Styling for the operator buttons (+, -, *, /) */
+  .buttons button[operator] {
+    background-color: #f0f0f0; /* Light gray background for operators */
+  }
+  
+  /* Styling for the equals button (=) */
+  .buttons button[type="equals"] {
+    background-color: #007bff; /* Blue background for equals button */
+    width: 100%; /* Span the full width of the row */
+  }
+  
+  /* Styling for the funny image container */
+  #funny-image-container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the funny image */
+  #funny-image-container img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  body{
+    background-color: black;
+  }
+  
